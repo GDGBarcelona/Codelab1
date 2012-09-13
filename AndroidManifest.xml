@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name="org.gdg.barcelona.codelab1.DualPanel"
+            android:label="@string/title_activity_main">
+        </activity>/
     </application>
 
 </manifest>
