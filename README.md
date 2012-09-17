@@ -1,4 +1,3 @@
-Codelab1
-========
+Posible soluci—n al codelab de iniciaci—n a Android
 
-Codelab1
+GDG Barcelona 2012
