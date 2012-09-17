@@ -1,4 +1,4 @@
-package org.gdg.barcelona.codelab1.Fragments;
+package org.gdg.barcelona.codelab1.fragments;
 
 import org.gdg.barcelona.codelab1.R;
 
@@ -13,11 +13,11 @@ import android.support.v4.app.ListFragment;
 
 public class AndroidsListFragment extends ListFragment 
 {
-	private static String[] ANDROID_NAME_ARRAY = 
+	private static final String[] ANDROID_NAME_ARRAY = 
 		{"Blanco", "Boda", "Jellybean", "Noogler","Worker", 
 		 "R2D2", "Reactor", "Creature"};
 	
-	private static int[] ANDROID_ID_ARRAY = 
+	private static final int[] ANDROID_ID_ARRAY = 
 		{R.drawable.android_blanco, R.drawable.android_boda, 
 		 R.drawable.android_jellybean, R.drawable.android_noogler,
 		 R.drawable.android_office, R.drawable.android_r2d2, 
