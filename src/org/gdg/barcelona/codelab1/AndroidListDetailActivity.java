@@ -1,8 +1,7 @@
 package org.gdg.barcelona.codelab1;
 
 import org.gdg.barcelona.codelab1.Fragments.FragmentImatge;
-import org.gdg.barcelona.codelab1.Fragments.ListFragment;
-
+import org.gdg.barcelona.codelab1.Fragments.AndroidsListFragment;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -10,15 +9,16 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 
-public class DualPanel extends FragmentActivity implements ListFragment.ClickedItem{
-	Fragment listas =  new ListFragment();
+public class AndroidListDetailActivity extends FragmentActivity implements AndroidsListFragment.ClickedItem
+{
+	Fragment listas =  new AndroidsListFragment();
 	FragmentImatge imatges =  new FragmentImatge();
 	public Drawable imagenselected;
+	
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+	protected void onCreate(Bundle savedInstanceState) 
+	{
 		super.onCreate(savedInstanceState);
-		//Montamos el arbol de vistas
 		setContentView(R.layout.activity_dual_panel_landscape);
 		
 		//cargamos los fragments en cada uno de los frames

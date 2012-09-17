@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name="org.gdg.barcelona.codelab1.DualPanel"
+            android:name=".AndroidListDetailActivity"
             android:label="@string/title_activity_main">
         </activity>/
     </application>
